@@ -14,6 +14,7 @@ for list in lists:
     price = list.find('div', class_="listing-search-item__price")
     area = list.find('li', class_="illustrated-features__item--surface-area")
     info=[title]
+    print(title)
     print(info)
 
 
